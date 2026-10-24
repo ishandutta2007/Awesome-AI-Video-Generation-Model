@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-AI-Video-Generation-Model/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Video-Generation-Model?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Video-Generation-Model/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Video-Generation-Model?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-AI-Video-Generation-Model/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-AI-Video-Generation-Model?style=social" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-AI-Video-Generation-Model/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-AI-Video-Generation-Model?color=red" alt="GitHub Issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-AI-Video-Generation-Model/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT" /></a>
@@ -19,7 +19,7 @@
 
 Welcome to the definitive, curated index of **AI Video Generation Models**, **Text-to-Video (T2V)**, **Image-to-Video (I2V)**, and **Video-to-Video (V2V)** diffusion technologies. 
 
-Whether you are looking for production-ready **commercial SaaS platforms** with cinematic camera motions (Runway Gen-4, OpenAI Sora, Kling AI) or exploring bleeding-edge **open-source weights and self-hosted DiT diffusion models** (LTX-Video, Open-Sora, Wan2.2, CogVideoX, Mochi 1), this guide organizes the landscape by capabilities, pricing, star counts, and hardware efficiency.
+Whether you are looking for production-ready **commercial SaaS platforms** with cinematic camera motions (Runway Gen-4, OpenAI Sora, Kling AI) or exploring bleeding-edge **open-source weights and self-hosted DiT diffusion models** (LTX-Video, Open-Sora, Wan2.2, CogVideoX, Mochi 1), this guide organizes the landscape by capabilities, pricing, Stars_Counts, and hardware efficiency.
 
 > 💡 **Key Focus Areas**: Text-to-Video synthesis, Generative AI video tools, Video Diffusion Transformers (DiT), Mixture-of-Experts (MoE) video models, ComfyUI workflows, and local GPU self-hosting.
 
@@ -65,45 +65,45 @@ The following hosted SaaS platforms provide state-of-the-art cinematic outputs v
 
 Open-source and open-weight diffusion models allow developers and creators to host video generation on their own hardware, integrate into ComfyUI pipelines, and train custom LoRA weights. 
 
-Repositories are sorted below in **descending order by GitHub star count**:
+Repositories are sorted below in **descending order by GitHub Stars_Count**:
 
-- ### 1. **[Open-Sora](https://github.com/hpcaitech/Open-Sora)** [![GitHub stars](https://img.shields.io/github/stars/hpcaitech/Open-Sora?style=social&color=white)](https://github.com/hpcaitech/Open-Sora/stargazers)  
+- ### 1. **[Open-Sora](https://github.com/hpcaitech/Open-Sora)** [![GitHub_Stars](https://img.shields.io/github/stars/hpcaitech/Open-Sora?style=social&color=white)](https://github.com/hpcaitech/Open-Sora/stargazers)  
   **Democratizing efficient video production for everyone.** HPC-AI Tech's complete open-source initiative providing full hardware-efficient training and inference pipelines. Supports video latent diffusion models (STDiT architecture), dynamic resolutions, and full sequence conditioning.
 
-- ### 2. **[Stable Video Diffusion (SVD)](https://github.com/Stability-AI/generative-models)** [![GitHub stars](https://img.shields.io/github/stars/Stability-AI/generative-models?style=social&color=white)](https://github.com/Stability-AI/generative-models/stargazers)  
+- ### 2. **[Stable Video Diffusion (SVD)](https://github.com/Stability-AI/generative-models)** [![GitHub_Stars](https://img.shields.io/github/stars/Stability-AI/generative-models?style=social&color=white)](https://github.com/Stability-AI/generative-models/stargazers)  
   **The foundational open image-to-video diffusion architecture.** Stability AI's flagship repository featuring SVD and SVD-XT (generating 14 to 25 frames at 576×1024). Serves as the community baseline for camera-motion LoRA fine-tuning and academic video research.
 
-- ### 3. **[Wan2.2](https://github.com/Wan-Video/Wan2.2)** [![GitHub stars](https://img.shields.io/github/stars/Wan-Video/Wan2.2?style=social&color=white)](https://github.com/Wan-Video/Wan2.2/stargazers)  
+- ### 3. **[Wan2.2](https://github.com/Wan-Video/Wan2.2)** [![GitHub_Stars](https://img.shields.io/github/stars/Wan-Video/Wan2.2?style=social&color=white)](https://github.com/Wan-Video/Wan2.2/stargazers)  
   **State-of-the-art Mixture-of-Experts (MoE) video generation.** Alibaba's open suite featuring Wan2.2-I2V-A14B and Wan2.2-TI2V-5B. Offers native 720p cinematic synthesis, exceptional motion realism, and optimized 24GB VRAM execution with consumer GPU offloading.
 
-- ### 4. **[CogVideoX](https://github.com/zai-org/CogVideo)** [![GitHub stars](https://img.shields.io/github/stars/zai-org/CogVideo?style=social&color=white)](https://github.com/zai-org/CogVideo/stargazers)  
+- ### 4. **[CogVideoX](https://github.com/zai-org/CogVideo)** [![GitHub_Stars](https://img.shields.io/github/stars/zai-org/CogVideo?style=social&color=white)](https://github.com/zai-org/CogVideo/stargazers)  
   **High-resolution 3D VAE diffusion model.** Developed by Tsinghua University and Zhipu AI under **Apache 2.0**. Features 768×1360 resolution, up to 10-second outputs, expert 3D full-attention architecture, and deep understanding of long 226-token detailed prompts.
 
-- ### 5. **[HunyuanVideo](https://github.com/Tencent/HunyuanVideo)** [![GitHub stars](https://img.shields.io/github/stars/Tencent/HunyuanVideo?style=social&color=white)](https://github.com/Tencent/HunyuanVideo/stargazers)  
+- ### 5. **[HunyuanVideo](https://github.com/Tencent/HunyuanVideo)** [![GitHub_Stars](https://img.shields.io/github/stars/Tencent/HunyuanVideo?style=social&color=white)](https://github.com/Tencent/HunyuanVideo/stargazers)  
   **Tencent's frontier open-source foundation video model.** Features an 8.3B parameter Diffusion Transformer (DiT) integrating unified dual-stream text processing, 3D VAE video compression, and high-fidelity prompt compliance for photorealistic text-to-video.
 
-- ### 6. **[AnimateDiff](https://github.com/guoyww/AnimateDiff)** [![GitHub stars](https://img.shields.io/github/stars/guoyww/AnimateDiff?style=social&color=white)](https://github.com/guoyww/AnimateDiff/stargazers)  
+- ### 6. **[AnimateDiff](https://github.com/guoyww/AnimateDiff)** [![GitHub_Stars](https://img.shields.io/github/stars/guoyww/AnimateDiff?style=social&color=white)](https://github.com/guoyww/AnimateDiff/stargazers)  
   **Universal motion module for personalized text-to-image models.** Enables animation across community Stable Diffusion checkpoints (SD1.5, SDXL) without task-specific tuning. Widely utilized in ComfyUI and Automatic1111 workflows for stylised creator animation.
 
-- ### 7. **[Open-Sora-Plan](https://github.com/PKU-YuanGroup/Open-Sora-Plan)** [![GitHub stars](https://img.shields.io/github/stars/PKU-YuanGroup/Open-Sora-Plan?style=social&color=white)](https://github.com/PKU-YuanGroup/Open-Sora-Plan/stargazers)  
+- ### 7. **[Open-Sora-Plan](https://github.com/PKU-YuanGroup/Open-Sora-Plan)** [![GitHub_Stars](https://img.shields.io/github/stars/PKU-YuanGroup/Open-Sora-Plan?style=social&color=white)](https://github.com/PKU-YuanGroup/Open-Sora-Plan/stargazers)  
   **Peking University & Yuan Group's open reproduction effort.** A modular reproduction of Sora-like Video DiT architectures supporting 3D-VAE, joint image-video pre-training, and continuous frame interpolation workflows.
 
-- ### 8. **[LTX-Video](https://github.com/Lightricks/LTX-Video)** [![GitHub stars](https://img.shields.io/github/stars/Lightricks/LTX-Video?style=social&color=white)](https://github.com/Lightricks/LTX-Video/stargazers)  
+- ### 8. **[LTX-Video](https://github.com/Lightricks/LTX-Video)** [![GitHub_Stars](https://img.shields.io/github/stars/Lightricks/LTX-Video?style=social&color=white)](https://github.com/Lightricks/LTX-Video/stargazers)  
   **Faster-than-realtime inference on consumer hardware.** Lightricks' **Apache 2.0** model family generating 5 seconds of video in ~2 seconds. Integrates Video-VAE with a 192x spatial-temporal compression ratio, supporting multi-keyframe synthesis and sub-second prompt iterations.
 
-- ### 9. **[Mochi 1](https://github.com/genmoai/mochi)** [![GitHub stars](https://img.shields.io/github/stars/genmoai/mochi?style=social&color=white)](https://github.com/genmoai/mochi/stargazers)  
+- ### 9. **[Mochi 1](https://github.com/genmoai/mochi)** [![GitHub_Stars](https://img.shields.io/github/stars/genmoai/mochi?style=social&color=white)](https://github.com/genmoai/mochi/stargazers)  
   **Largest 10B parameter open video architecture.** Genmo's **Apache 2.0** Asymmetric Diffusion Transformer (AsymmDiT). Renowned for prompt fidelity, fluid motion physics, ComfyUI nodes, and native LoRA fine-tuning support.
 
-- ### 10. **[Video-LLaMA](https://github.com/DAMO-NLP-SG/Video-LLaMA)** [![GitHub stars](https://img.shields.io/github/stars/DAMO-NLP-SG/Video-LLaMA?style=social&color=white)](https://github.com/DAMO-NLP-SG/Video-LLaMA/stargazers)  
+- ### 10. **[Video-LLaMA](https://github.com/DAMO-NLP-SG/Video-LLaMA)** [![GitHub_Stars](https://img.shields.io/github/stars/DAMO-NLP-SG/Video-LLaMA?style=social&color=white)](https://github.com/DAMO-NLP-SG/Video-LLaMA/stargazers)  
   **Multimodal video-grounded language and instruction model.** Connects video encoders with audio perception and LLMs, powering conversational video grounding, editing instructions, and scene-level comprehension.
 
-- ### 11. **[SkyReels-V1](https://github.com/SkyworkAI/SkyReels-V1)** [![GitHub stars](https://img.shields.io/github/stars/SkyworkAI/SkyReels-V1?style=social&color=white)](https://github.com/SkyworkAI/SkyReels-V1/stargazers)  
+- ### 11. **[SkyReels-V1](https://github.com/SkyworkAI/SkyReels-V1)** [![GitHub_Stars](https://img.shields.io/github/stars/SkyworkAI/SkyReels-V1?style=social&color=white)](https://github.com/SkyworkAI/SkyReels-V1/stargazers)  
   **Cinematic narrative & long-form video diffusion system.** Skywork AI's generation framework designed for expressive character animation, storytelling, and infinite-length cinematic sequence synthesis.
 
-- ### 12. **[InternVideo](https://github.com/OpenGVLab/InternVideo)** [![GitHub stars](https://img.shields.io/github/stars/OpenGVLab/InternVideo?style=social&color=white)](https://github.com/OpenGVLab/InternVideo/stargazers)  
+- ### 12. **[InternVideo](https://github.com/OpenGVLab/InternVideo)** [![GitHub_Stars](https://img.shields.io/github/stars/OpenGVLab/InternVideo?style=social&color=white)](https://github.com/OpenGVLab/InternVideo/stargazers)  
   **Foundation models for video understanding and generation.** OpenGVLab's unified multimodal model family integrating video masked autoencoding, cross-modal alignment, and controllable synthesis backbones.
 
-- ### 13. **[Show-1](https://github.com/showlab/Show-1)** [![GitHub stars](https://img.shields.io/github/stars/showlab/Show-1?style=social&color=white)](https://github.com/showlab/Show-1/stargazers)  
+- ### 13. **[Show-1](https://github.com/showlab/Show-1)** [![GitHub_Stars](https://img.shields.io/github/stars/showlab/Show-1?style=social&color=white)](https://github.com/showlab/Show-1/stargazers)  
   **Pixel-and-latent hybrid video diffusion.** Show Lab's approach combining pixel-space diffusion for high-motion consistency with latent diffusion for computational efficiency.
 
 ---
