@@ -65,7 +65,7 @@ The following hosted SaaS platforms provide state-of-the-art cinematic outputs v
 
 Open-source and open-weight diffusion models allow developers and creators to host video generation on their own hardware, integrate into ComfyUI pipelines, and train custom LoRA weights. 
 
-Repositories are sorted below in **descending order by GitHub Stars_Count**:
+Repositories are sorted below in **descending order by GitHub_Stars_Count**:
 
 - ### 1. **[Open-Sora](https://github.com/hpcaitech/Open-Sora)** [![GitHub_Stars](https://img.shields.io/github/stars/hpcaitech/Open-Sora?style=social&color=white)](https://github.com/hpcaitech/Open-Sora/stargazers)  
   **Democratizing efficient video production for everyone.** HPC-AI Tech's complete open-source initiative providing full hardware-efficient training and inference pipelines. Supports video latent diffusion models (STDiT architecture), dynamic resolutions, and full sequence conditioning.
