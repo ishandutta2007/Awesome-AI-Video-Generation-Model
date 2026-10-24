@@ -1,50 +1,51 @@
-# Awesome-AI-Video-Generation-Model
+# Awesome AI Video Generation Models 🎬✨
 
-## Top AI Video Generation Model Ecosystem
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome AI Video Generation Model Ecosystem Banner" width="100%" />
+</p>
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Video-Generation-Model/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-AI-Video-Generation-Model?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Video-Generation-Model/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-AI-Video-Generation-Model?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Video-Generation-Model/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-AI-Video-Generation-Model?color=red" alt="GitHub Issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-AI-Video-Generation-Model/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+---
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+## 🌟 Overview & Ecosystem
 
-*Focused on Text-to-Video Generation, Cinematic AI Models & Self-Hosted Video Diffusion*  
+Welcome to the definitive, curated index of **AI Video Generation Models**, **Text-to-Video (T2V)**, **Image-to-Video (I2V)**, and **Video-to-Video (V2V)** diffusion technologies. 
 
-**Last updated: October 2026**
+Whether you are looking for production-ready **commercial SaaS platforms** with cinematic camera motions (Runway Gen-4, OpenAI Sora, Kling AI) or exploring bleeding-edge **open-source weights and self-hosted DiT diffusion models** (LTX-Video, Open-Sora, Wan2.2, CogVideoX, Mochi 1), this guide organizes the landscape by capabilities, pricing, star counts, and hardware efficiency.
 
+> 💡 **Key Focus Areas**: Text-to-Video synthesis, Generative AI video tools, Video Diffusion Transformers (DiT), Mixture-of-Experts (MoE) video models, ComfyUI workflows, and local GPU self-hosting.
 
+---
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **AI Video Generation Models**. These tools transform text prompts, images, or video inputs into short cinematic clips—ranging from closed commercial models with polished outputs to open-weight diffusion models that run on consumer GPUs and can be fine-tuned with LoRA.
+## 📑 Table of Contents
 
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [💼 SaaS & Hosted Platforms](#-saas--hosted-platforms)
+- [💻 Open-Source Repositories & Weights](#-open-source-repositories--weights)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer & Licensing](#️-disclaimer--licensing)
+- [📈 Star History](#-star-history)
+- [☕ Support & Sponsorship](#-support--sponsorship)
 
+---
 
-**Examples** include Runway Gen-3, OpenAI Sora, Pika, Luma Dream Machine, Kling AI, Hailuo AI, PixVerse, Stable Video Diffusion, LTX-Video, and Mochi 1 (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active open-weight video model for self-hosting, avoiding per-second SaaS fees, and controlling the generation pipeline. The open-source landscape is anchored by **LTX-Video** (faster-than-real-time generation on consumer GPUs, Apache 2.0), **Mochi 1** (the largest open video model at 10B parameters, Apache 2.0), and **CogVideoX** (Zhipu/Tsinghua's high-resolution model with T2V and I2V, Apache 2.0), with **Stable Video Diffusion** providing the foundational image-to-video model and **Wan2.2** offering MoE-based generation.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## Sector Overview & Market Dynamics
+## 📊 Sector Overview & Market Dynamics
 
 The global AI video generation market is estimated between **$850M and $5.5B+ in 2026**, expanding rapidly toward **$20B–$70B+ by the early 2030s** at an estimated CAGR exceeding 25–35%. The sector exhibits **moderate fragmentation with rapid consolidation pressure**; while frontier foundation model providers and established software incumbents (OpenAI, Adobe, Kuaishou/Kling) command the largest enterprise pipelines and distribution moats, specialized prosumer startups (Runway, MiniMax, PixVerse, Luma, Pika) sustain significant market share through creative tooling workflows, agile community ecosystems, and rapid model iterations.
 
-## SaaS/Hosted Platforms
+---
+
+## 💼 SaaS & Hosted Platforms
+
+The following hosted SaaS platforms provide state-of-the-art cinematic outputs via managed cloud APIs and web interfaces, ranked by company size and enterprise valuation:
 
 | Product | Company Size / Valuation / Revenue | Starting Pricing | Free Tier Limit | Description |
 | :--- | :--- | :--- | :--- | :--- |
@@ -58,90 +59,88 @@ The global AI video generation market is estimated between **$850M and $5.5B+ in
 | **[Pika](https://pika.art/)** | Valuation: **~$470M–$700M** (Series B led by Spark Capital) | **$8/mo** (billed annually) or **$10/mo** (Starter tier, 700 credits/mo) | **Free forever plan**: Access to models with 2 parallel generation queues, no monthly recurring credit top-up (pay-per-pack or initial trial credits, personal use only). | Creative video generation platform with Seedance, Wan, and Pika models, sound effects, and Pikaffects. |
 | **[Kaiber](https://kaiber.ai/)** | Valuation: **~$10M–$20M** (Seed funded by EQT, ARR ~$2.6M) | **$8/mo** (annual) or **$10/mo** (Starter tier, 500 credits/mo) | **5-Day Free/Trial plan**: $5 promotional trial converts to Creator, or free account with limited initial test credits for canvas mode. | Stylized AI video generation studio focused on animators, music videos, beat synchronization, and visual artists. |
 
-## Open-Source GitHub Projects
+---
 
+## 💻 Open-Source Repositories & Weights
 
+Open-source and open-weight diffusion models allow developers and creators to host video generation on their own hardware, integrate into ComfyUI pipelines, and train custom LoRA weights. 
 
-- **[LTX-Video](https://github.com/Lightricks/LTX-Video)**  
+Repositories are sorted below in **descending order by GitHub star count**:
 
-  **The faster-than-real-time open-source model.** **Apache 2.0 licensed**. Generates **5 seconds of video in ~2 seconds**—faster than watching the output . **Architecture**: integrates Video-VAE and denoising transformer into a single system, achieving **192x compression** without quality loss . **Models**: LTXV 2B (balanced fidelity/speed), 2B Distilled (3x faster), 13B, and 13B Distilled . **Strengths**: runs on consumer-grade GPUs; supports multiscale rendering and multi-keyframe workflows; **realtime iteration**—change prompts and see results in seconds . Best for creators wanting rapid iteration and developers building real-time video tools without datacenter-class hardware.
+- ### 1. **[Open-Sora](https://github.com/hpcaitech/Open-Sora)** [![GitHub stars](https://img.shields.io/github/stars/hpcaitech/Open-Sora?style=social&color=white)](https://github.com/hpcaitech/Open-Sora/stargazers)  
+  **Democratizing efficient video production for everyone.** HPC-AI Tech's complete open-source initiative providing full hardware-efficient training and inference pipelines. Supports video latent diffusion models (STDiT architecture), dynamic resolutions, and full sequence conditioning.
 
+- ### 2. **[Stable Video Diffusion (SVD)](https://github.com/Stability-AI/generative-models)** [![GitHub stars](https://img.shields.io/github/stars/Stability-AI/generative-models?style=social&color=white)](https://github.com/Stability-AI/generative-models/stargazers)  
+  **The foundational open image-to-video diffusion architecture.** Stability AI's flagship repository featuring SVD and SVD-XT (generating 14 to 25 frames at 576×1024). Serves as the community baseline for camera-motion LoRA fine-tuning and academic video research.
 
+- ### 3. **[Wan2.2](https://github.com/Wan-Video/Wan2.2)** [![GitHub stars](https://img.shields.io/github/stars/Wan-Video/Wan2.2?style=social&color=white)](https://github.com/Wan-Video/Wan2.2/stargazers)  
+  **State-of-the-art Mixture-of-Experts (MoE) video generation.** Alibaba's open suite featuring Wan2.2-I2V-A14B and Wan2.2-TI2V-5B. Offers native 720p cinematic synthesis, exceptional motion realism, and optimized 24GB VRAM execution with consumer GPU offloading.
 
-- **[Mochi 1](https://github.com/genmoai/mochi)**  
+- ### 4. **[CogVideoX](https://github.com/zai-org/CogVideo)** [![GitHub stars](https://img.shields.io/github/stars/zai-org/CogVideo?style=social&color=white)](https://github.com/zai-org/CogVideo/stargazers)  
+  **High-resolution 3D VAE diffusion model.** Developed by Tsinghua University and Zhipu AI under **Apache 2.0**. Features 768×1360 resolution, up to 10-second outputs, expert 3D full-attention architecture, and deep understanding of long 226-token detailed prompts.
 
-  **The largest open video model.** **10B parameters (AsymmDiT)**, Apache 2.0 licensed . **Strengths**: **strong prompt adherence**—"you write what you want and it comes out almost exactly" . **Output**: 480p base, 5.4 seconds max. **Ecosystem**: ComfyUI support, LoRA fine-tuning, Gradio UI, and a simple Python API . **Trade-offs**: shorter duration than LTX; high resolution requires more VRAM; best at short scenes with strong physics rather than long complex narratives . Best for developers wanting the highest-fidelity open model for short, prompt-critical clips and those interested in LoRA customization.
+- ### 5. **[HunyuanVideo](https://github.com/Tencent/HunyuanVideo)** [![GitHub stars](https://img.shields.io/github/stars/Tencent/HunyuanVideo?style=social&color=white)](https://github.com/Tencent/HunyuanVideo/stargazers)  
+  **Tencent's frontier open-source foundation video model.** Features an 8.3B parameter Diffusion Transformer (DiT) integrating unified dual-stream text processing, 3D VAE video compression, and high-fidelity prompt compliance for photorealistic text-to-video.
 
+- ### 6. **[AnimateDiff](https://github.com/guoyww/AnimateDiff)** [![GitHub stars](https://img.shields.io/github/stars/guoyww/AnimateDiff?style=social&color=white)](https://github.com/guoyww/AnimateDiff/stargazers)  
+  **Universal motion module for personalized text-to-image models.** Enables animation across community Stable Diffusion checkpoints (SD1.5, SDXL) without task-specific tuning. Widely utilized in ComfyUI and Automatic1111 workflows for stylised creator animation.
 
+- ### 7. **[Open-Sora-Plan](https://github.com/PKU-YuanGroup/Open-Sora-Plan)** [![GitHub stars](https://img.shields.io/github/stars/PKU-YuanGroup/Open-Sora-Plan?style=social&color=white)](https://github.com/PKU-YuanGroup/Open-Sora-Plan/stargazers)  
+  **Peking University & Yuan Group's open reproduction effort.** A modular reproduction of Sora-like Video DiT architectures supporting 3D-VAE, joint image-video pre-training, and continuous frame interpolation workflows.
 
-- **[CogVideoX](https://github.com/zai-org/CogVideo)**  
+- ### 8. **[LTX-Video](https://github.com/Lightricks/LTX-Video)** [![GitHub stars](https://img.shields.io/github/stars/Lightricks/LTX-Video?style=social&color=white)](https://github.com/Lightricks/LTX-Video/stargazers)  
+  **Faster-than-realtime inference on consumer hardware.** Lightricks' **Apache 2.0** model family generating 5 seconds of video in ~2 seconds. Integrates Video-VAE with a 192x spatial-temporal compression ratio, supporting multi-keyframe synthesis and sub-second prompt iterations.
 
-  **The high-resolution Chinese open-source model.** Zhipu AI + Tsinghua University, **Apache 2.0 licensed** . **Output**: **768×1360** high resolution, up to 10 seconds, 226-token long prompts. **Modes**: T2V (Text-to-Video) and I2V (Image-to-Video with dedicated weights) . **Strengths**: welcomes detailed, long prompts—"the more detailed the better"—contrasting with LTX's concise style . Best for developers wanting high-resolution open-source generation with strong Chinese language support and detailed prompt handling.
+- ### 9. **[Mochi 1](https://github.com/genmoai/mochi)** [![GitHub stars](https://img.shields.io/github/stars/genmoai/mochi?style=social&color=white)](https://github.com/genmoai/mochi/stargazers)  
+  **Largest 10B parameter open video architecture.** Genmo's **Apache 2.0** Asymmetric Diffusion Transformer (AsymmDiT). Renowned for prompt fidelity, fluid motion physics, ComfyUI nodes, and native LoRA fine-tuning support.
 
+- ### 10. **[Video-LLaMA](https://github.com/DAMO-NLP-SG/Video-LLaMA)** [![GitHub stars](https://img.shields.io/github/stars/DAMO-NLP-SG/Video-LLaMA?style=social&color=white)](https://github.com/DAMO-NLP-SG/Video-LLaMA/stargazers)  
+  **Multimodal video-grounded language and instruction model.** Connects video encoders with audio perception and LLMs, powering conversational video grounding, editing instructions, and scene-level comprehension.
 
+- ### 11. **[SkyReels-V1](https://github.com/SkyworkAI/SkyReels-V1)** [![GitHub stars](https://img.shields.io/github/stars/SkyworkAI/SkyReels-V1?style=social&color=white)](https://github.com/SkyworkAI/SkyReels-V1/stargazers)  
+  **Cinematic narrative & long-form video diffusion system.** Skywork AI's generation framework designed for expressive character animation, storytelling, and infinite-length cinematic sequence synthesis.
 
-- **[Stable Video Diffusion (SVD)](https://github.com/Stability-AI/generative-models)**  
+- ### 12. **[InternVideo](https://github.com/OpenGVLab/InternVideo)** [![GitHub stars](https://img.shields.io/github/stars/OpenGVLab/InternVideo?style=social&color=white)](https://github.com/OpenGVLab/InternVideo/stargazers)  
+  **Foundation models for video understanding and generation.** OpenGVLab's unified multimodal model family integrating video masked autoencoding, cross-modal alignment, and controllable synthesis backbones.
 
-  **The foundational image-to-video model.** Part of Stability AI's generative-models repository (~27.3k stars) . **Output**: 14 frames at 576×1024 from a single image . **Strengths**: the reference implementation for image-to-video synthesis; supports LoRA fine-tuning and camera control . **Trade-offs**: older than LTX/Mochi/CogVideoX; shorter duration and lower resolution. Best for researchers and developers wanting a well-documented, widely-forked foundation for image-to-video experiments.
-
-
-
-- **[Wan2.2](https://github.com/Wan-Video/Wan2.2)**  
-
-  **The MoE-based video generation model.** Alibaba's open model with **Mixture-of-Experts** architecture for efficient high-definition generation . **Models**: Wan2.2-I2V-A14B (image-to-video, 480p/720p) and Wan2.2-TI2V-5B (text-image-to-video, 720p) . **Requirements**: A14B needs ~80GB VRAM for single-GPU; TI2V-5B runs on **24GB VRAM** (RTX 4090) with offloading . Best for developers with high-end GPUs wanting MoE efficiency and strong image-to-video performance.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **HunyuanVideo 1.5** — Tencent's 8.3B parameter DiT model with sparse attention, unified T2I/T2V/I2V, and strong Chinese language support. arXiv technical report available .
-
-- **AnimateDiff** — Animates personalized text-to-image models without tuning. Best for adding motion to existing Stable Diffusion workflows.
-
-- **SkyReels V2** — Diffusion-forcing for infinite-length film generation. Best for long-form video experiments.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- **SaaS pricing is credit-based and opaque**: Runway credits burn fast (50–100 credits per 10-second clip; Pro plan yields ~22–45 clips/month) ; Kling's first-month discounts revert to higher renewal rates ; Pika's free tier has no monthly credits—only one-time packs .
-
-- **Open-source models have hardware requirements**: Mochi 1 and CogVideoX need substantial VRAM for high resolutions; Wan2.2-A14B requires ~80GB VRAM without offloading . LTX-Video and Wan2.2-TI2V-5B are the most consumer-friendly options.
-
-- **Commercial use varies**: Kling's free Basic tier is **non-commercial only** ; Pika's Free and Starter tiers lack commercial licenses—Creator and above include them . Verify licensing before using outputs commercially.
-
-- **Open-source ≠ free to run**: all models require GPU infrastructure, and large models may need cloud instances that cost as much as SaaS subscriptions.
-
-
+- ### 13. **[Show-1](https://github.com/showlab/Show-1)** [![GitHub stars](https://img.shields.io/github/stars/showlab/Show-1?style=social&color=white)](https://github.com/showlab/Show-1/stargazers)  
+  **Pixel-and-latent hybrid video diffusion.** Show Lab's approach combining pixel-space diffusion for high-motion consistency with latent diffusion for computational efficiency.
 
 ---
 
+## 🤝 How to Contribute
 
+We welcome contributions from researchers, video artists, and software engineers! 🚀
 
-**Made for video creators, AI researchers, and developers building generative video pipelines.**  
+1. 🍴 **Fork** this repository.
+2. 🌿 **Create a branch** for your updates (`git checkout -b feature/new-video-model`).
+3. 📝 **Add your entry** under the appropriate SaaS or Open-Source section following the existing table or list format.
+4. 🔗 Ensure all official model weights, project pages, and paper links are verified.
+5. 📤 **Submit a Pull Request** with a brief summary of the model and its capabilities!
 
-Let's make AI video generation more open, accessible, and self-hostable.
+---
+
+## ⚠️ Disclaimer & Licensing
+
+- 📌 This repository is a **community-curated index** and does not constitute financial or commercial endorsement.
+- 💳 **SaaS Pricing Transparency**: Subscription plans, credit burn rates, and daily allowances are determined by individual providers and subject to ongoing adjustments.
+- ⚙️ **Compute Requirements**: Running 10B+ open-weight models (e.g. Mochi 1, CogVideoX, Wan2.2-A14B) requires high-end VRAM (24GB–80GB); models such as LTX-Video and distilled checkpoints are recommended for consumer GPUs.
+- ⚖️ **Commercial Licensing**: Verify each model's license (e.g., Apache 2.0 vs. non-commercial research licenses) prior to deploying in production applications.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-AI-Video-Generation-Model&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-AI-Video-Generation-Model&type=date&legend=top-left)
+
+---
+
+## ☕ Support & Sponsorship
+
+If this repository helps you navigate the generative AI video landscape, build cool tools, or discover open-source models, please consider supporting the project:
+
+- ⭐ **Star this repository** to help others discover it!
+- 🍴 **Fork and share** with fellow developers and creators.
+- ☕ **Buy me a coffee / Sponsor the project**: [**Sponsor on GitHub**](https://github.com/sponsors/ishandutta2007)
+
+Thank you to all community contributors, researchers, and sponsors for keeping open generative media accessible to all! 💖
