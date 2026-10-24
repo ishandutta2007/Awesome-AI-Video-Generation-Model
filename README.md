@@ -40,33 +40,23 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
+## Sector Overview & Market Dynamics
+
+The global AI video generation market is estimated between **$850M and $5.5B+ in 2026**, expanding rapidly toward **$20B–$70B+ by the early 2030s** at an estimated CAGR exceeding 25–35%. The sector exhibits **moderate fragmentation with rapid consolidation pressure**; while frontier foundation model providers and established software incumbents (OpenAI, Adobe, Kuaishou/Kling) command the largest enterprise pipelines and distribution moats, specialized prosumer startups (Runway, MiniMax, PixVerse, Luma, Pika) sustain significant market share through creative tooling workflows, agile community ecosystems, and rapid model iterations.
+
 ## SaaS/Hosted Platforms
 
-
-
-| Product | Description | Pricing | Free Tier Limit |
-
-| :--- | :--- | :--- | :--- |
-
-| **[Runway](https://runwayml.com/)** | AI video generation and editing platform with Gen-3 Alpha, Gen-4, and Aleph models. | **Free**: $0 (125 one-time credits). **Standard**: $12/mo (annual) or $15/mo (monthly). **Pro**: $28/mo (annual) or $35/mo. **Unlimited**: $76/mo for relaxed-rate unlimited generations . | **Free**: 125 one-time credits (~25s of Gen-4 Turbo or Gen-3 Alpha Turbo). No monthly refresh . |
-
-| **[Pika](https://pika.art/)** | Creative video platform with Seedance, Wan, and Pika models, plus image and audio generation. | **Free**: $0 (credit packs only). **Starter**: $8/mo (annual) or $10/mo. **Creator**: $28/mo (annual) or $35/mo. **Fancy**: $76+/mo (annual) or $95+/mo . | **Free**: Access to all models, 2 parallel video generations, no watermark. **No monthly credits**—buy one-time packs at 60 credits/$1 . |
-
-| **[Luma Dream Machine](https://lumalabs.ai/)** | Cinematic AI video generation with Ray3 models and Luma Agents. | **Plus**: $30/mo ($300/year) for 10,000 credits. **Pro**: $90/mo ($900/year) for 40,000 credits. **Ultra**: $300/mo ($3,000/year) for 150,000 credits. Legacy Lite/Plus/Unlimited tiers also exist with a free tier . | **Legacy free tier** available (limited). New Agents tiers have **no free option** . |
-
-| **[Kling AI](https://klingai.com/)** | Chinese AI video platform with Kling 3.0/4.0 models, native audio, and multi-shot generation. | **Basic**: $0 (no monthly credits, non-commercial). **Standard**: $6.99/mo first month, then ~$8.8 (660 credits). **Pro**: $25.99/mo first, then ~$32.56 (3,000 credits). **Premier**: $64.99/mo first, then ~$80.96 (8,000 credits) . | **Basic**: Free forever, no monthly credits, 30 element creations, **non-commercial use only** . |
-
-| **[Hailuo AI](https://hailuoai.video/)** | MiniMax's video platform with Hailuo 2.3, Sora 2, and Veo 3.1 access. | **Standard**: $9.90/mo (annual) or $19.90/mo (1,600 credits). **Pro**: $29.90/mo (annual) or $59.90/mo (5,400 credits). **Max**: $79.90/mo (annual) or $149.90/mo (16,000 credits) . | **Free**: One-time trial credits, Hailuo models only. No monthly free credits . |
-
-| **[PixVerse](https://pixverse.ai/)** | AI video generation platform with V6 and C1 models, per-second credit pricing. | Pay-per-use: V6 at **5 credits/s (360p)** to **23 credits/s (1080p with audio)**. 225 credits = $1 reference . | Not detailed in available results. |
-
-| **[Adobe Firefly Video](https://www.adobe.com/products/firefly/plans.html)** | Adobe's generative video model within the Firefly ecosystem. | **Standard**: HK$78/mo (2,000 credits). **Pro**: HK$158/mo (4,000 credits). **Pro Plus**: HK$393/mo (10,000 credits). **Premium**: HK$1,550/mo (50,000 credits + unlimited video model) . | **Free plan** with limited daily generations. Paid plans include unlimited standard image/vector generation . |
-
-| **[Sora (OpenAI)](https://openai.com/sora)** | OpenAI's video generation model with native audio and up to 1080p/20s output (Pro). | **Sora 2 Pro**: From **$0.30/second** via fal.ai, OpenAI, or Replicate. 720p ~$0.30/s, 1080p ~$0.50/s . | Not detailed in available results. |
-
-| **[Kaiber](https://kaiber.ai/)** | AI video generation for musicians and creators with Canvas and Beat Sync. | **Starter**: $8/mo (annual) or $10/mo (500 credits). **Creator**: $23/mo (annual) or $29/mo (1,500 credits). **Pro**: $79/mo (annual) or $99/mo (5,000 credits) . | **5-Day Trial**: $5 for full access with 500 credits (converts to Creator Monthly after 5 days) . |
-
-
+| Product | Company Size / Valuation / Revenue | Starting Pricing | Free Tier Limit | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Sora (OpenAI)](https://openai.com/sora)** | Valuation: **~$850B+** (ARR: ~$13B–$50B run rate) | **$20/mo** (ChatGPT Plus tier) or API from **$0.30/s** (Sora 2 Pro) | **Free tier**: Limited trial access on select accounts with watermarks and strict duration/resolution caps. Full Sora access begins on Plus ($20/mo). | OpenAI's video generation model with native audio, high prompt fidelity, and up to 1080p/20s output. |
+| **[Adobe Firefly Video](https://www.adobe.com/products/firefly/plans.html)** | Market Cap: **~$105B** (Full-year revenue: ~$23.8B) | **$9.99/mo** (Firefly Standard, 2,000 monthly credits) | **Free forever plan**: Daily generative credit allowance resetting every 24 hours (for test-generation of images/short video clips with platform caps). | Adobe's generative video model deeply integrated into Premiere Pro and the Firefly creative ecosystem. |
+| **[Kling AI](https://klingai.com/)** | Valuation: **$18B** (Parent: Kuaishou ~$25B+ market cap) | **$6.99/mo** first month, then **$8.80/mo** (Standard tier, 660 credits) | **Basic plan (Free forever)**: 66 free daily credits (resets daily, non-commercial use only, standard queue, up to 720p watermarked). | Chinese AI video platform with Kling 3.0/4.0 models, multi-shot generation, and native cinematic camera controls. |
+| **[Hailuo AI](https://hailuoai.video/)** | Market Cap: **~$8.2B–$11.4B** (MiniMax public on HKEX: 00100) | **$9.90/mo** (annual) or **$19.90/mo** (Standard tier, 1,600 credits) | **Free forever plan**: ~200 welcome credits + daily bonus credits (expires after 3 days; max 768p, 6s duration, watermarked, 1 concurrent job). | MiniMax's video platform featuring Hailuo 2.3 and MiniMax H3 models with high motion dynamics. |
+| **[Runway](https://runwayml.com/)** | Valuation: **$5.3B** (Raised $315M Series E in 2026) | **$12/mo** (billed annually) or **$15/mo** (Standard tier, 625 credits/mo) | **Free plan**: 125 one-time credits (~25s of Gen-4/Gen-3 Turbo video, watermarked, non-refreshing). | Leading AI video creation platform featuring Gen-3 Alpha, Gen-4, and Aleph models with video-to-video editing. |
+| **[PixVerse](https://pixverse.ai/)** | Valuation: **$2.0B+** (Raised $550M+ total, Series C extension) | **$8/mo** (billed annually) or **$10/mo** (Standard tier, 1,200 credits/mo) | **Basic plan (Free forever)**: 60 signup credits + 30 daily credits (resets daily, 540p resolution cap, watermarked, personal use). | AI video platform with V6 and C1 models, fast rendering pipelines, and camera motion presets. |
+| **[Luma Dream Machine](https://lumalabs.ai/)** | Valuation: **~$500M** (Series B funded by a16z, NVIDIA) | **$25/mo** (annual) or **$30/mo** (Plus tier, 10,000 credits/mo) | **Free forever tier**: 30 free video generations/month (~1 generation/day allowance, standard priority queue, 720p, watermarked). | Cinematic AI video generation platform powered by Ray 2/Ray 3 models and Luma camera agents. |
+| **[Pika](https://pika.art/)** | Valuation: **~$470M–$700M** (Series B led by Spark Capital) | **$8/mo** (billed annually) or **$10/mo** (Starter tier, 700 credits/mo) | **Free forever plan**: Access to models with 2 parallel generation queues, no monthly recurring credit top-up (pay-per-pack or initial trial credits, personal use only). | Creative video generation platform with Seedance, Wan, and Pika models, sound effects, and Pikaffects. |
+| **[Kaiber](https://kaiber.ai/)** | Valuation: **~$10M–$20M** (Seed funded by EQT, ARR ~$2.6M) | **$8/mo** (annual) or **$10/mo** (Starter tier, 500 credits/mo) | **5-Day Free/Trial plan**: $5 promotional trial converts to Creator, or free account with limited initial test credits for canvas mode. | Stylized AI video generation studio focused on animators, music videos, beat synchronization, and visual artists. |
 
 ## Open-Source GitHub Projects
 
